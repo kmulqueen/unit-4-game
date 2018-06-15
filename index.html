@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector Game</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="./assets/javascript/game.js"></script>
+</head>
+
+<body>
+
+    <div id="title">
+        <h1>Crystal Collector Game!</h1>
+    </div>
+
+    <div id="instructions">
+        <p>Instructions: You will be given a random number at the start of the game.
+            <br> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total
+            score.
+            <br> You <strong>win</strong> the game by matching your total score to the random number, and you lose the game if your total score
+            goes above the random number.
+            <br> The value of each crystal is hidden from you until you click on it.
+            <br> Every time the game starts, the values of the crystals change.
+            <br>
+        </p>
+    </div>
+    <div id="stats">
+        <div id="random-number-display" class="stats">
+            <h2>Score to win:</h2>
+            <h3 id="random-number">Random Number</h3>
+        </div>
+        <div id="wins-display" class="stats">
+            <h2>Wins:</h2>
+            <h2 id="wins"></h2>
+        </div>
+        <div id="losses-display" class="stats">
+            <h2>Losses:</h2>
+            <h2 id="losses"></h2>
+        </div>
+        <div id="user-score-display" class="stats">
+            <h2>Your total score is:</h2>
+            <h3 id="user-score">0</h3>
+        </div>
+    </div>
+
+    <div id="crystal-display">
+        <img src="./assets/images/blue-crystal.png" class="crystals" id="crystal-1">
+        <img src="./assets/images/gold-crystal.png" class="crystals" id="crystal-2">
+        <img src="./assets/images/purple-crystal.png" class="crystals" id="crystal-3">
+        <img src="./assets/images/green-crystal-2.png" class="crystals" id="crystal-4">
+    </div>
+
+
+</body>
+
+</html>

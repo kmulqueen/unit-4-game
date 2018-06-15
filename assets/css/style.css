@@ -1,0 +1,58 @@
+body {
+    margin: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+#title {
+    text-align: center;
+    font-size: 3rem;
+    background-color: aqua;
+    padding: 50px;
+    margin-bottom: 2px;
+}
+
+#instructions {
+    display: flex;
+    border: 2px solid grey;
+    padding: 10px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+#stats div {
+    border: 2px solid gray;
+    margin: 5px;
+    padding: 10px;
+    line-height: 1.5em;
+    background-color: aliceblue;
+}
+
+#stats {
+    display: flex;
+}
+
+.stats {
+    flex: 1;
+}
+
+#random-number-display {
+    order: 1;
+}
+
+#user-score-display {
+    order: 2;
+}
+
+#wins-display {
+    order: 3;
+}
+
+#losses-display {
+    order: 4;
+}
+
+#crystal-display {
+    text-align: center;
+}
