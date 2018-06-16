@@ -7,13 +7,14 @@ body {
 #title {
     text-align: center;
     font-size: 3rem;
-    background-color: aqua;
+    background-color: #7cb1fd;
     padding: 50px;
     margin-bottom: 2px;
 }
 
 #instructions {
     display: flex;
+    flex-direction: column;
     border: 2px solid grey;
     padding: 10px;
     line-height: 1.5em;
@@ -35,6 +36,14 @@ body {
 
 .stats {
     flex: 1;
+}
+
+/* #instructions-display {
+
+} */
+
+.wrapper {
+    display: flex;
 }
 
 #random-number-display {
